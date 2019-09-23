@@ -1,0 +1,1 @@
+package org.jugru.jdbcExample.dao;import org.jugru.jdbcExample.model.User;import java.util.List;public interface UserDAO {    void create(User user);    User get(long id);    List<User> getAll();    void initTable();}
